@@ -1,0 +1,84 @@
+
+.login-signup{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-header{
+    font-size: 45px;
+}
+
+.seven{
+    color: red;
+}
+
+.eleven{
+    color:#14734f;
+}
+
+.login-container{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginsection{
+    display: flex;
+    flex-direction: column;
+}
+
+.correct-creds{
+    display: none;
+}
+
+.incorrect-creds{
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+
+.email-ip, .password-ip{
+    width: 400px;
+    height: 35px;
+    border: 3px solid #14734f;
+    border-radius: 13px;
+    padding-left: 7px;
+}
+
+.email-ip{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+.login-btn{
+    width: 405px;
+    height: 35px;
+    margin-bottom: 5px;
+    border: 3px solid #14734f;
+    background-color: #14734f;
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.signup-btn{
+    width: 405px;
+    height: 35px;
+    border: 3px solid #14734f;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.login-disclaimer{
+    font-size: 15px;
+}

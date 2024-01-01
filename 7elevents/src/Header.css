@@ -1,0 +1,189 @@
+.whole-page{
+    position: relative;
+}
+
+.header-whole{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1c6e2f;
+    position: relative;
+}
+
+.app-logo{
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.location{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1c6e2f;
+    border-right: 1px solid #1c6e2f;
+    padding-bottom: 20px;
+    padding-right: 135px;
+}
+
+.signout{
+    border: 1px solid #1c6e2f;
+    color: #1c6e2f;
+    background-color: white; 
+    font-size: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+
+
+
+option{
+    background-color: white;
+    color: #1c6e2f;
+}
+
+.header-input{
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    height: 35px;
+    width: 380px;
+    margin-left: 15px;
+    border-radius: 25px;
+    padding-left: 10px;
+    
+}
+
+.header-deals, .header-shop, .header-orders, .header-food{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 0px;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+
+
+.food-dropdown{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+    height: 0; 
+    overflow: hidden; 
+    left: 0;
+    top: 30px; 
+    transition: height 1s ease; 
+    margin-top: 38px;
+}
+
+.food-section:hover .food-dropdown{
+    height: 40vh; 
+}
+
+
+
+
+li{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.food-section:hover .food-dropdown{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .app-logo{
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        border: 1px solid white;
+    }
+    
+    .location{
+        font-size: 8px;
+        font-weight: bold;
+        color: #1c6e2f;
+        border-right: 1px solid #1c6e2f;
+        padding-bottom: 10px;
+        padding-right: 25px;
+    }
+    
+    .header-input{
+        border: 1px solid white;
+        background-color: #f2f2f2;
+        height: 20px;
+        width: 100px;
+        margin-left: 15px;
+        border-radius: 25px;
+        padding-left: 10px;
+    }
+    
+    .header-deals, .header-shop, .header-orders, .header-food{
+        font-weight: bold;
+        font-size: 10px;
+        margin-left: 0px;
+        background-color: white;
+        border-style: none;
+        cursor: pointer;
+        padding: 5px;
+    }
+    
+    .signin-button{
+        border: 1px solid #1c6e2f;
+        color: #1c6e2f;
+        background-color: white;
+        font-size: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 15px;
+        margin-left: 10px;
+        
+    }
+    
+    .food-dropdown{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 0; 
+        overflow: hidden; 
+        left: 0;
+        top: 10px; 
+        transition: height 1s ease; 
+        margin-top: 18px;
+    }
+    
+    .food-section:hover .food-dropdown{
+        height: 40vh; 
+    }
+
+    li{
+        padding-top: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    
+    .food-section:hover .food-dropdown{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
